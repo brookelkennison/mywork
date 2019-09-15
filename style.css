@@ -132,10 +132,15 @@ div > a, img{
 .top {
     display: flex;
     flex-direction: row;
+    height: 325px;
+}
+a {
+    text-decoration: none;
 }
 .bottom {
     display: flex;
     flex-direction: row;
+    height: 325px;
 }
 .project {
     height: 295px;
