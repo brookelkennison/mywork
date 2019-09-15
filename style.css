@@ -66,16 +66,18 @@ div > a, img{
 /* ==================== */
 /*       ABOUT ME       */
 /* ==================== */
-.aboutme {
+.content {
     background-color: #e0e0e0;
     margin: 0px;
     padding: 70px;
     height: 600px;
 }
-.aboutme > h1 {
+.content > h1 {
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline;
+    margin-bottom: 50px;
+    color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
 }
 .aboutmecontainer {
     display: flex;
@@ -83,7 +85,7 @@ div > a, img{
 }
 .left-aboutme > img {
     border-radius: 200px;
-    border: 2px rgb(60, 60, 60) solid;
+    border: 5px #8c8c8c solid;
     height: 300px;
     width: auto;
     display: flex;
@@ -91,7 +93,6 @@ div > a, img{
 }
 .left-aboutme {
     width: 40%;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,13 +104,95 @@ div > a, img{
     display: flex;
     align-items: center;
     padding: 30px;
-    line-height: 40px;
+    line-height: 30px;
     font-size: 18px;
     text-align: right;
 }
 /* ==================== */
+/*       QUOTE 1        */
+/* ==================== */
+.quote {
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 50px 70px;
+    font-size: 38px;
+}
+/* ==================== */
 /*       MY WORK        */
+/* ==================== */
+.myworkcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mywork {
+    height: 750px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+.project {
+    height: 295px;
+    width: 450px;
+    box-shadow: -7px -7px 5px #999999;
+    background-repeat: no-repeat;
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.project > h3 {
+    border: 2px solid white;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project > p {
+    word-spacing: 5px;
+}
+.project1 {
+    background-image: linear-gradient(#ad32ff, #e37c81);
+}
+.project1:hover {
+    background-image: url('https://www.petakids.com/wp-content/uploads/2019/01/bunny.jpg');
+    background-size: 450px 295px;
+}
+.project2 {
+    background-image: linear-gradient(#e37c81, #ffdd47);
+}
+.project3 {
+    background-image: linear-gradient(#9dff8c, #59e6ff);
+}
+.project4 {
+    background-image: linear-gradient(#ad32ff, #9dff8c);
+}
+
+/* ==================== */
+/*       QUOTE 2        */
 /* ==================== */
 /* ==================== */
 /*       CONTACT        */
 /* ==================== */
+/* ==================== */
+/*        FOOTER        */
+/* ==================== */
+.footer {
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 70px;
+    height: 50px;
+}
