@@ -151,12 +151,12 @@ div > a, img{
     justify-content: center;
     text-align: center;
 }
-.project > h3 {
-    border: 2px solid white;
+.project > div {
     width: 50%;
     height: 50%;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -167,12 +167,14 @@ div > a, img{
     background-image: linear-gradient(#ad32ff, #e37c81);
 }
 .project1:hover {
-    background-image: url('https://github.com/brookelkennison/portfolio/blob/master/images/trivia.png?raw=true');
+    background-image: url('https://lh3.googleusercontent.com/2_9PFCHzu0YpdGuaFyG1k4mhuyR66w6NYwa_oSsnKzjBD5qZJUI9g6F2hLKP5yK0Sgzto48REIBjK5A2SInJ4dwFoDlpXmEIfMxsmvBnbCYCMuo1lq_pxs405FRSwLaCm7e_R-EQ6DmPgPEWV-3zWTD5jRJn-0os6YcrC2gb6e1xSShpe6yxwIJ7VcAkKrtGIETVlSaFN0mq3bPqSw0Xqz_Ze1hBVhQdYK2DlVJ-d9_RBIC_GcOaf7ebzBsi2G2bP0WL6Vnl-GL0jOWs2MpQzSwghHn6dCLv7a6cgxz2Z-zEgHnDJcaG25PvOIdB8mU8M1bJzKF7pv-aqkPgQ7neDoOdsDrItUfRYXxiiAOMeXFwGmuEqgkua_tYZYYgldvutatEMC7DPwHHQ9sE3ow2jhepWxPRRa1iNzEDZhUkS7SiWXaLJ4ksB_-L1CsLSvM-WpMzggdR62iaX1rOtm-zWcmgfiPU54mUfUM7WZ2BoNpizzORksAQ0HCHnx96tnfA0SntNtf50uaYukT7QTPN9w8Xt8lC1cpV8BFFTh1q4HaV4RMCGUCz1xUIZs5vS2vvPjUMRIEqETdttU26T7Ynm1PGwNhiqkgzYnUV8SiWGPJr6UdgTAaT95PQ6G7tsaeTDSoOxbXbCSaeMWC6xj-M6rg-pSxrr1qDU84RvxbWKX7bZmTXIx_tX1I=w2524-h1186-no');
     background-size: 450px 295px;
 }
-
 .project2 {
     background-image: linear-gradient(#e37c81, #ffdd47);
+}
+.project2:hover {
+    background-image: url('https://lh3.googleusercontent.com/eBJ_B-xGSRPNzN5dGKWFxlF0fuhE8esZYu3KVGQ2LypaFkKGwxdLNDoS75socnmsmBcxFQoB1I2TbLEr1P-knJrczDnIwzqoJAnDrR-C9GAq5Hv6XdvoSN5sIVew-v63r4hQZClE6lTZ1PyNyB4erIVgpgb0T5gnOCtIPArIv1yqq1p8wRL-__jN-d_FheCj9ulc6Ojn4M3Gv9waLXoAmId3letd-fXFxYqS51ljUAUKNEhtc4F6bb631FJGCC9BuWpa48GrKqDMsQztETMeTleloWgaPDdWhNLs0Eg_Ah9Qib5nIV-nkXLRoAzphU2fzR4bxHU8--rOgOtb0gf_-f0WVLo786gn2N-OvAtpVGsgvC8uNoIK9_q4l2rDPHSt2g4uJ4qDoEDMs87nL7cp_EiLLr9fHID0lDBW3Ohyn_gX4gkV-HKPgBwNIDAIRWTpOWkeDM9OQbRq7LMCBO7ZF6SMuWkSVuMVjS-HImsbQEuyuAkOT5TBztGTSANeUDc_17lvhJYsdEZ03mvCDImD1HKmMDTYbJg88pj31gplUgRnyHxeGyfv-2q2OVIEzgYQM9rnGrCXaJEfLfAQNXk0j8I5q9d-_wBR7v3qtIeUf6CgBUNVunzPQJxR_kAPuLzcDWimDdwRGX6TEB4npAIyOAXQF1E-lKerQPWNT0uih5MjHzmP6bhlBYI=w2524-h1200-no');
 }
 .project3 {
     background-image: linear-gradient(#9dff8c, #59e6ff);
