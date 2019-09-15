@@ -54,13 +54,17 @@ div > a, img{
 .main > h4 {
     padding: 0px 0px 50px 45px;
 }
-.main > svg {
+svg {
     height: 80px;
-    width: auto;
+    width: 80px;
     padding: 10px;
 }
-.main > svg:hover {
+#mainarrow:hover {
     border: 2px #e0e0e0 solid;
+    border-radius: 100px;
+}
+svg:hover {
+    border: 2px #8c8c8c solid;
     border-radius: 100px;
 }
 /* ==================== */
@@ -79,9 +83,15 @@ div > a, img{
     color: #8c8c8c;
     font-family: 'Roboto', sans-serif;
 }
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .aboutmecontainer {
     display: flex;
     flex-direction: row;
+    margin-bottom: 75px;
 }
 .left-aboutme > img {
     border-radius: 200px;
@@ -125,9 +135,13 @@ div > a, img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 75px;
 }
 .mywork {
-    height: 750px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .top {
     display: flex;
@@ -196,7 +210,6 @@ a {
     background-image: url('https://lh3.googleusercontent.com/IgmV1MXWSrNGMIJlrBOOOfEwX9bibF-_3qfRKAvkbwxi_JTeyft7FDkKeL7x-yjt6afHD_VmaFP_MLli8JkjzIiWCF45ip4nhP6FKG30XU0ETr3yhggvEXmJQtHoUGCONB_RKuLM-_HXkinG7BBgioMANFZ9Sfa9LtR13cKBwXrufqLwhBW2jNbANZsE2tFfnn4LjweDffgiRrljqJoYYBwjnF8EqD4GcxzMmO1KZadDjDq7zO-8MFhydxUmJMDTvHjK9gWE1O9JdTytzfcAdzjUthAJVP6ecSrqvCOYu_K9na1q4u--PJ8S_1izGYuXQ6G0LaJQHOVDrEjp0Ffp7V8f848Cf1AEPV9WMbYMwX1D4FN7mhsHZp6ppMsCNJtFyt-HEekTZseol8uft0mCuH5D4a29gkvlKbaGKMcfWkfUNITt1Xab9z0QUOTjwV4MSBEwi7vx6E_2EMx9xYRosgFp87Rpkt114hqKj2rankeDIyxk0HY3C0a7c0VVCkmBayLZulXehNQ4JOfisradqAMDy4Ll-X4Rjg49VSGn539IXNfhVbEFgk9KqhM-abCqSnW2St0DSKVR9DROeTYTKY-b3L3rbsRKANn1BFJJ2B5XgD8r_UZRKNbbFU93qJfU0Yv0BBTtgvQmGjfg7In2_XgK1po3OSPxBbRikoZeqXEaClMGb1rbNBY=w2436-h1346-no');
     background-size: 450px 295px;
 }
-
 /* ==================== */
 /*       QUOTE 2        */
 /* ==================== */
