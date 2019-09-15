@@ -1,0 +1,115 @@
+ /* * {
+  border: 1px red solid;
+} */
+
+/* ==================== */
+/*        BODY        */
+/* ==================== */
+body {
+  background-image: linear-gradient(#707070, black);
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+/* ==================== */
+/*        HEADER        */
+/* ==================== */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 20px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+}
+.links > a {
+    padding: 0px 10px;
+}
+.title {
+    display: flex;
+    color: #e0e0e0;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    font-size: 26px;
+}
+div > a, img{
+  height: 40px;
+  width: auto;
+}
+/* ==================== */
+/*         MAIN         */
+/* ==================== */
+.main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e0e0e0;
+    margin: 125px 0px 250px 0px;
+}
+.main > h4 {
+    padding: 0px 0px 50px 45px;
+}
+.main > svg {
+    height: 80px;
+    width: auto;
+    padding: 10px;
+}
+.main > svg:hover {
+    border: 2px #e0e0e0 solid;
+    border-radius: 100px;
+}
+/* ==================== */
+/*       ABOUT ME       */
+/* ==================== */
+.aboutme {
+    background-color: #e0e0e0;
+    margin: 0px;
+    padding: 70px;
+    height: 600px;
+}
+.aboutme > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.aboutmecontainer {
+    display: flex;
+    flex-direction: row;
+}
+.left-aboutme > img {
+    border-radius: 200px;
+    border: 2px rgb(60, 60, 60) solid;
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.left-aboutme {
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-aboutme {
+    width: 60%;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: right;
+}
+/* ==================== */
+/*       MY WORK        */
+/* ==================== */
+/* ==================== */
+/*       CONTACT        */
+/* ==================== */
