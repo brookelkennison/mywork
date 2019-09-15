@@ -167,9 +167,10 @@ div > a, img{
     background-image: linear-gradient(#ad32ff, #e37c81);
 }
 .project1:hover {
-    background-image: url('https://www.petakids.com/wp-content/uploads/2019/01/bunny.jpg');
+    background-image: url('https://github.com/brookelkennison/portfolio/blob/master/images/trivia.png?raw=true');
     background-size: 450px 295px;
 }
+
 .project2 {
     background-image: linear-gradient(#e37c81, #ffdd47);
 }
