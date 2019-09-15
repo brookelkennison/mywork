@@ -216,6 +216,28 @@ a {
 /* ==================== */
 /*       CONTACT        */
 /* ==================== */
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactmecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactmecontainer > div {
+    margin: 30px;
+    height: 450px;
+    width: 300px;
+    border: 2px #8c8c8c solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8c8c8c;
+    font-family: 'Poppins', sans-serif;
+}
 /* ==================== */
 /*        FOOTER        */
 /* ==================== */
