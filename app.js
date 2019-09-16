@@ -1,17 +1,5 @@
 $(() => { //start of onload
-// ====================
-//      MAIN ARROW
-// ====================
 
-// ====================
-//   ABOUT ME ARROW
-// ====================
-// ====================
-//    MY WORK ARROW
-// ====================
-// ====================
-//   CONTACT ME ARROW
-// ====================
 // ====================
 //      PROJECT 1
 // ====================
@@ -56,4 +44,14 @@ const showText4 = () => {
 }
 $('.project4').mouseenter(hideText4);
 $('.project4').mouseleave(showText4);
-})
+// ====================
+//    SCROLL EFFECTS
+// ====================
+// $('#mainarrow').click(function(event)){
+//     if (location.pathname.replace(/^\//, '') == pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+//         var target = $(this.hash);
+//         target = target.length ? target : $('=name')
+//     }
+// }
+
+})// dont touch these
