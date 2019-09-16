@@ -1,7 +1,9 @@
  /* * {
   border: 1px red solid;
 } */
-
+html {
+    scroll-behavior: smooth;
+}
 /* ==================== */
 /*        BODY        */
 /* ==================== */
@@ -74,7 +76,7 @@ svg:hover {
     background-color: #e0e0e0;
     margin: 0px;
     padding: 70px;
-    height: 600px;
+    height: 750px;
 }
 .content > h1 {
     text-align: center;
@@ -220,23 +222,66 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 850px;
 }
 .contactmecontainer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 75px;
 }
 .contactmecontainer > div {
     margin: 30px;
     height: 450px;
     width: 300px;
-    border: 2px #8c8c8c solid;
+    border: 4px #8c8c8c solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #8c8c8c;
     font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+/* EMAIL */
+#email:hover {
+    border: none;
+}
+#email {
+    height: 70px;
+    width: 70px;
+}
+/* LINKEDIN */
+#linkedin:hover {
+    border: none;
+    border-radius: 0px;
+}
+#linkedin {
+    height: 80px;
+    width: 80px;
+}
+/* GITHUB */
+#github:hover {
+    border: none;
+    border-radius: 0px;
+}
+#github {
+    height: 80px;
+    width: 80px;
+}
+/* ALL SOCIAL CONTAINER */
+.social > a {
+    text-decoration: underline;
+    color: #5a35fc;
+}
+
+/* PHONE */
+#phone:hover {
+    border: none;
+}
+#phone {
+    height: 60px;
+    width: 60px;
 }
 /* ==================== */
 /*        FOOTER        */
@@ -245,6 +290,7 @@ a {
     color: #e0e0e0;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    padding: 70px;
-    height: 50px;
+    padding: 30px;
+    height: 30px;
+    font-size: 20px;
 }
