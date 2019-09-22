@@ -60,13 +60,14 @@ div > a, img{
 }
 .main > h4 {
     padding: 0px 0px 50px 45px;
+    text-shadow: 1px 1px 5px black;
 }
 svg {
     height: 80px;
     width: 80px;
     padding: 10px;
 }
-#mainarrow > svg:hover {
+#mainarrow:hover {
     border: 2px #e0e0e0 solid;
     border-radius: 100px;
 }
