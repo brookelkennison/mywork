@@ -95,6 +95,7 @@ svg:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 750px;
 }
 .aboutmecontainer {
     display: flex;
@@ -228,6 +229,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 750px;
 }
 .contactmecontainer {
     display: flex;
